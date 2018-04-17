@@ -13,10 +13,10 @@
 #
 #    v1.1 (03/11/2017)
 #        - added routines to process 1D spectra (initially designed for 2D spectra only):
-#							. the main workflow remains similar
-#							. dimension of spectra is automatically detected
-#							. in 1D spectra, chemical shifts and fwhm are estimated via topspin pp routines,
-#							  not by fitting
+#	      . the main workflow remains similar
+#	      . dimension of spectra is automatically detected
+#	      . in 1D spectra, chemical shifts and fwhm are estimated via topspin pp routines,
+#		not by fitting
 #    v1.0 (07/03/2017)
 #        - 2D fit is optional (performed only if argument '--fwhm' is provided
 #        - different models can be used to fit 2D spectra (Lor., Gauss., Gauss. with rotation)
