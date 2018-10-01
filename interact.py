@@ -1099,7 +1099,7 @@ if ndims == 2:
 			  x = [l[6] for l in filtered]
 			  y = [l[7] for l in filtered]
 			  w = [l[8] for l in filtered]
-			  fit(pk, w, conc, x, y, tmp_folder, P_ini)
+			  fit(pk, w, conc, x, y, tmp_folder, P_ini, 2)
 			  # parse fitting results
 			  fitf = os.path.join(tmp_folder, pk + "_fit_res.txt").replace("\\", "/")
 			  fit_res[pk] = parse_fit(fitf, P_ini) 
