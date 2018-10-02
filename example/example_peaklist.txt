@@ -1,0 +1,5 @@
+# lines can be commented using '#' symbol
+# signal name and peak picking window (upper (p) and lower (m) bounds in F1 and F2 dimensions of the spectrum)
+# Name	F1m	F1p	F2m	F2p
+Ala_227	128.3	129.1	8.3	8.4
+X_i	115.6	116.6	8.05	8.135
